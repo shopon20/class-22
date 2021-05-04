@@ -1,0 +1,204 @@
+html{
+    scroll-behavior: smooth;
+}
+/* header menu */
+.header{
+    background: #007acc;
+}
+.header-logo img{
+    width: 180px;
+}
+.primary-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.primary-menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 60px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background: #249aea;
+}
+/* end header menu */
+
+/* start baner menu */
+.baner{
+    background-image: url(https://i.ibb.co/sqS5S5y/banner-cc-1030x515.jpg);
+    padding: 280px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.baner-text{
+    margin: -180px 0;
+}
+.baner-text h1 {
+    display: inline-block;
+    background: rgba(64,65,48,.5);
+    padding: 10px 30px;
+    font-size: 50px;
+    font-weight: 600;
+    color: wheat;
+    border-radius: 40px;
+}
+.baner-text h2 {
+    background: rgba(81,64, 31,.3);
+    padding: 7px 40px;
+    border-radius: 40px;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    font-weight: 600;
+}
+/* end baner menu */
+
+/* start about section */
+.about{
+    background: rgba(64,65,48,.5);
+}
+.about img {
+    width: 430px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+}
+.about h2{
+    color: white;
+    font-weight: 600;
+}
+.about p{
+    color: gainsboro;
+}
+/* end about section */
+
+/* start service section */
+.service{
+    background: rgba(168, 105, 105,.5);
+}
+.service h1 {
+    display: inline-block;
+    background: aquamarine;
+    color: blueviolet;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin: 70px 0;
+}
+.service span {
+    display: block;
+    width: 60px;
+    margin: auto;
+    background: blueviolet;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.service .card{
+    padding: 14px;
+    border-radius: 20px;
+}
+.service .card button {
+    border: 1px solid blueviolet;
+    padding: 2px 0;
+    margin-top: 15px;
+    color: white;
+    background: rgba(140, 78, 58, 0.5);
+    border-radius: 10px;
+}
+.service .card h3 {
+    font-weight: 300;
+    color: blueviolet;
+}
+.service .card p{
+    color: cadetblue;
+    font-size: 15px;
+    line-height: 30px;  
+}
+/* end service section */
+
+/* start product section */
+img{
+    max-width: 100%;
+}
+.product{
+    background: rgba(1,1,1,.4);
+}
+.product h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: cadetblue;
+}
+.product-item {
+    border: 1px solid blue;
+    transform: skew(15deg);
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.product-item p{
+    color: white;
+}
+.product-right{
+    margin-left: 10px;
+}
+.product-right h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+    color: rebeccapurple;
+}
+.product-right li {
+    display: inline-block;
+    border: 1px solid antiquewhite;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    color: white;
+    background: rgba(22, 49, 42, 0.5);
+}
+/* end product section */
+
+/* start contact section */
+.contact{
+    background: #131313b3;
+}
+.contact h1{
+    color: wheat;
+    font-weight: 600;
+}
+.btn.btn-primary {
+    padding: 5px 50px;
+    margin: 20px 0;
+        margin-left: 0px;
+    margin-left: 15px;
+}
+/* end contact section */
+
+/* start footer section */
+.footer{
+    background: rgb(165, 70, 230);
+}
+.footer h5{
+margin-bottom: 0;
+color: aliceblue;
+}
+.col-md-7{
+    text-align: right;
+}
+.footer a {
+    font-size: 26px;
+    padding: 0 10px;
+    color: gold;
+}
+/* end footer section */
